@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+   <body> 
+    <header>
+      <nav>
+        <h1>📖 Dictionary App</h1>
+      </nav>
+    </header>
+    <form id="dictionaryForm" onsubmit="event.preventDefault(); getDefinition();">
+      <input type="text" id="wordInput" placeholder="Enter a word..." required />
+      <button type="submit">Search</button>
+    </form>
+    <div id="result"></div>
+    <footer>
+      <p>@ Dictionary App 2025</p>
+    </footer>
+    <script src="script.js"></script>   
+</body>
+</html>
